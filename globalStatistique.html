@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title>Sheldon COOPER - Physicien surdoué et Geek qualifié</title>
+
+    <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Fichiers CSS -->
+    <link rel="stylesheet" href="cv/template/style/reset.css">
+    <!--[if lt IE 9]> 
+	<link rel="stylesheet" href="css/cv.css" media="screen">
+<![endif]-->
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="cv/template/style/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:481px)" href="cv/template/style/cv.css">
+    <link rel="stylesheet" media="print" href="cv/template/style/print.css">
+    <link rel="stylesheet" href="cssStatistique/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header role="banner">
+        <h1>Statistique</h1>
+        
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+               
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Compétences
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#c">Maitrise du language "globale"</a>
+                <a class="dropdown-item" href="#c2">Maitrise du language "Java"</a>                
+                <a class="dropdown-item" href="#c3">Maitrise du language "Android"</a>
+                <a class="dropdown-item" href="#c4">Maitrise du language "C#"</a>
+                <a class="dropdown-item" href="#c3">Maitrise du language "C"</a>
+                <a class="dropdown-item" href="#c6">Maitrise du language "Objectif C"</a>
+                <a class="dropdown-item" href="#c7">Maitrise du language "PHP"</a>
+                <a class="dropdown-item" href="#c8">Maitrise du language "cobol"</a>
+                <a class="dropdown-item" href="#c9">Maitrise du language "javascript"</a>                
+                <a class="dropdown-item" href="#c10">Maitrise du language "Python"</a> 
+            
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Besoin
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#c">Besoin "globale"</a>
+                  <a class="dropdown-item" href="#cB2">connaître les base du langage HTML 5</a>                  
+                  <a class="dropdown-item" href="#cB3">connaître les outils d’édition web</a>
+                  <a class="dropdown-item" href="#cB4">savoir travailler avec le RSS</a>
+                  <a class="dropdown-item" href="#cB5">savoir gérer un projet</a>
+                  <a class="dropdown-item" href="#cB6">analyser des bases de données</a>
+                  <a class="dropdown-item" href="#cB7">prototyper des innovations numériques</a>
+                  <a class="dropdown-item" href="#cB8">cartes géographiques interactives</a>
+                  <a class="dropdown-item" href="#cB9">mettre en place des outils « ranking »</a>                  
+                  <a class="dropdown-item" href="#cB10">savoir mettre en place des enquêtes"</a>
+                  
+                  
+              
+              </div>
+              </li>
+            
+          </ul>
+         
+        </div>
+      </nav>
+    
+      
+    <!-- Corps -->
+    <section role="main" class="container_16 clearfix" style="display: flex">
+        <div class="grid_16">
+
+            <div class="grid_8 competences">
+                <div style=" display: flex">
+                    <h3>Compétences</h3>
+
+
+                </div>
+                <div class="blocStat">
+                    <p id="c1" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "globale":</p>
+                    <div id="chart">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="sc1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span id="sc2"
+                                style="margin-left: 2px;color:darkolivegreen"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="sc3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="sc4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c2" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "Java":</p>
+                    <div id="chart2">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="Java1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="Java2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="Java3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="Java4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c3"  style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "Android":</p>
+                    <div id="chart3">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="Android1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="Android2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="Android3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="Android4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c4"  style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "C#":</p>
+                    <div id="chart4">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="Ccharp1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="Ccharp2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="Ccharp3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="Ccharp4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c5" style="font-weight: bold ;border-bottom: 1px solid darkolivegreen;">Maitrise du language "C":</p>
+                    <div id="chart5">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="C1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="C2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="C3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="C4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c6"  style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "Ojectif
+                        C":</p>
+                    <div id="chart6" style="border-bottom: 1px solid royalblue;padding: -10;">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="ObjectifC1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="ObjectifC2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="ObjectifC3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="ObjectifC4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c7" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "PHP":</p>
+                    <div id="chart7">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="PHP1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="PHP2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="PHP3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="PHP4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c8"  style="font-weight: bold;;border-bottom: 1px solid darkolivegreen;">Maitrise du language "cobol":</p>
+                    <div id="chart8">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="cobol1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="cobol2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="cobol3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="cobol4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c9" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Maitrise du language "javascript":</p>
+                    <div id="chart9">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="javascript1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="javascript2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="javascript3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="javascript4"></span> </p>
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="c10"  style="font-weight: bold ;border-bottom: 1px solid darkolivegreen;">Maitrise du language "python":</p>
+                    <div id="chart10">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">peu: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="python1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">bien:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="python2"></span> </p>
+                        <p style="margin-left: 7px;color: royalblue;">null:<span
+                                style="margin-left: 7px;color:darkolivegreen" id="python3"></span></p>
+                        <p style="margin-left: 5px;color: royalblue;">expert:<span
+                                style="margin-left: 1px;color:darkolivegreen" id="python4"></span> </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_8 loisirs">
+            
+                <div style=" display: flex">
+                    <h3>Besoin</h3>
+
+
+                </div>
+                <div class="blocStat">
+                    <p id="cB1" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">Besoin "globale":</p>
+                    <div id="chartB">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">pas besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="scB1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">besoin:<span id="scB2"
+                                style="margin-left: 2px;color:darkolivegreen"></span> </p>
+                  
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB2"  style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">connaître les base du langage HTML 5:</p>
+                    <div id="chartB2">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">pas besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="html1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="html2"></span> </p>
+                     
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB3" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">connaître les outils d’édition web:</p>
+                    <div id="chartB3">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="css1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">pas Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="css2"></span> </p>
+                      
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB4"  style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">savoir travailler avec le RSS:</p>
+                    <div id="chartB4">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="rss1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">pas Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="rss2"></span> </p>
+               
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB5" style="font-weight: bold ;border-bottom: 1px solid darkolivegreen;">savoir gérer un projet:</p>
+                    <div id="chartB5">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">pas Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="projet1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="projet2"></span> </p>
+                   
+
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB6" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">analyser des bases de données</p>
+                    <div id="chartB6" style="border-bottom: 1px solid royalblue;padding: -10;">
+
+                    </div>
+                    <div style="display: flex;">
+                        <p style="margin-left: 0px;color: royalblue;">pas Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="bd1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="bd2"></span> </p>
+                   
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB7"  style="font-weight: bold;font-size: 0.8em;border-bottom: 1px solid darkolivegreen;">prototyper des innovations numériques:</p>
+                    <div id="chartB7">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">pas Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="num1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="num2"></span> </p>
+         
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB8" style="font-weight: bold;  border-bottom: 1px solid darkolivegreen;">cartes géographiques interactives:</p>
+                    <div id="chartB8">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">pas Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="carte1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="carte2"></span> </p>
+         
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB9" style="font-weight: bold;border-bottom: 1px solid darkolivegreen;">mettre en place des outils « ranking »:</p>
+                    <div id="chartB9">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">pas Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="ran1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="ran2"></span> </p>
+          
+                    </div>
+                </div>
+                <div class="blocStat">
+                    <p id="cB10" style="font-weight: bold ;border-bottom: 1px solid darkolivegreen;">savoir mettre en place des enquêtes:</p>
+                    <div id="chartB10">
+
+                    </div>
+                    <div style="display: flex">
+                        <p style="margin-left: 0px;color: royalblue;">pas Besoin: <span
+                                style="margin-left: 1px;color:darkolivegreen" id="place1"></span></p>
+                        <p style="margin-left: 7px;color: royalblue;">Besoin:<span
+                                style="margin-left: 2px;color:darkolivegreen" id="place2"></span> </p>
+            
+                    </div>
+                </div>
+
+
+            
+
+
+        </div>
+
+
+    </section>
+
+    <!-- Scripts JavaScript -->
+
+
+    <!--[if lt IE 9]>
+<script src="scripts/placeholder.js"></script>
+<![endif]-->
+
+
+    <script src="d3Stat.js"></script>
+    <script src="anchor.js"></script>
+    
+
+</body>
+
+</html>

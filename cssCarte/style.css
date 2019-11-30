@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    display: block;
+    height: 100%;
+  }
+  
+  body {
+    padding: 50px 0 0 0;
+    background: linear-gradient(-30deg, #0a2f8a, #1f256d, #4912a0);
+  }
+  
+  .earth-container {
+    cursor: move;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(-90deg, #3a0090, #1495d2);
+    box-shadow: 0px 0px 100px #00b3ffd6;
+  }
+  
+  .earth {
+    fill: none;
+    margin: 0 auto;
+  }
+  
+  .country {
+    fill: #e6d1df5c;
+    stroke: #4d2db175;
+    stroke-width: 0.7px;
+  }
+  
+  .dot {
+    fill: #68f57854;
+    stroke: black;
+    stroke-width: 0px;
+  }
+  
+  .dot:hover {
+    stroke-width: 1px;
+  }
+  

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+  <title>Actualités</title>
+  <type>Premium</type>
+  <creationDate>2019-11-17 22:55:40</creationDate>
+ </head>
+ <body>
+  <outline title="Actualités" icon="calc" iconColor="green" cols="3" layout="3-0">
+   <outline title="ZDNet.fr" provider="custom" url="http://avatars.netvibes.com/multifeed/305007" row="1000" col="1">
+    <outline/>
+   </outline>
+   <outline title="CNETFrance Widget" provider="custom" url="http://avatars.netvibes.com/multifeed/377916" row="1000" col="2">
+    <outline/>
+   </outline>
+  </outline>
+  <outline title="Podcasts" cols="3" layout="3-0">
+   <outline title="Europe1 - Mediapolis - Michel Field et Olivier Duhamel" xmlUrl="http://cdn-new-europe1.ladmedia.fr/var/exports/podcasts/sound/mediapolis.xml" htmlUrl="https://www.europe1.fr/emissions/Mediapolis" type="rss" row="1000" col="1"/>
+   <outline title="Europe1 - L'actu" xmlUrl="http://cdn-new-europe1.ladmedia.fr/var/exports/podcasts/sound/actu.xml" htmlUrl="https://www.europe1.fr/emissions/Les-journaux-de-la-redaction" type="rss" row="2000" col="1"/>
+   <outline title="Interviews de Good Morning Business" xmlUrl="http://podcast.bfmbusiness.com/channel11/BFMchannel11.xml" htmlUrl="http://bfmbusiness.bfmtv.com/mediaplayer/podcast/good-morning-business/" type="rss" row="3000" col="1"/>
+   <outline title="RMC : L'invité de Bourdin and Co" xmlUrl="http://podcast.rmc.fr/channel38/RMCInfochannel38.xml" htmlUrl="http://rmc.bfmtv.com/mediaplayer/podcast/l-invite-de-bourdin-direct/" type="rss" row="4000" col="1"/>
+   <outline title="France Inter - La Revue de Presse" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_18780.xml" htmlUrl="https://www.franceinter.fr/emissions/la-revue-de-presse" type="rss" row="1000" col="2"/>
+   <outline title="Le rendez-vous Tech" xmlUrl="http://feeds.feedburner.com/lerendezvoustech" htmlUrl="http://www.lrdv.fr/" type="rss" row="2000" col="2"/>
+   <outline title="Europe1 - Revue de presse" xmlUrl="http://cdn-new-europe1.ladmedia.fr/var/exports/podcasts/sound/revue-de-presse.xml" htmlUrl="https://www.europe1.fr/emissions/La-revue-de-presse" type="rss" row="1000" col="3"/>
+   <outline title="RTL : RTL Soir" xmlUrl="http://www.rtl.fr/podcast/rtl-soir.xml" htmlUrl="https://www.rtl.fr/emission/rtl-soir" type="rss" row="2000" col="3"/>
+  </outline>
+  <outline title="Temps réel" cols="3" layout="3-0">
+   <outline type="ExtendedVibes" title="Twitter search: &amp;#x27;from:rue89&amp;#x27;" row="1000" col="1">
+    <outline streamTypes="twitter-search" lockedTab="true" mySearch="from:rue89" filterSearch="" searchLimit="5" geocode="" radius="" unit="kilometers" showThumb="true" pagerPosition="bottom" activeTab="twitter-search" nvid="" searchType="social" latLong="" color="blue" searchHistory="from:rue89:netvibes" lightVersion="1"/>
+   </outline>
+   <outline type="ExtendedVibes" title="Twitter search: &amp;#x27;from:le_figaro&amp;#x27;" row="1000" col="2">
+    <outline streamTypes="twitter-search" lockedTab="true" mySearch="from:le_figaro" filterSearch="" searchLimit="5" geocode="" radius="" unit="kilometers" showThumb="true" pagerPosition="bottom" activeTab="twitter-search" nvid="" searchType="social" latLong="" color="blue" searchHistory="from:le_figaro:netvibes:rue89:from:from:rue89" lightVersion="1"/>
+   </outline>
+   <outline type="ExtendedVibes" title="Twitter search: &amp;#x27;from:lemondefr&amp;#x27;" row="1000" col="3">
+    <outline streamTypes="twitter-search" lockedTab="true" mySearch="from:lemondefr" filterSearch="" searchLimit="5" geocode="" radius="" unit="kilometers" showThumb="true" pagerPosition="bottom" activeTab="twitter-search" nvid="" searchType="social" latLong="" color="blue" searchHistory="from:lemondefr:rue89:from:netvibes:le_figaro:from:le_figaro" lightVersion="1"/>
+   </outline>
+  </outline>
+  <outline title="Sports" cols="3" layout="3-0">
+   <outline title="L'Equipe.fr Actu de tous les sports" provider="lequipe" url="" row="1000" col="1">
+    <outline/>
+   </outline>
+   <outline title="Eurosport - Top des infos" xmlUrl="http://www.eurosport.fr/rss.xml" htmlUrl="https://www.eurosport.fr/" type="rss" row="1000" col="3"/>
+  </outline>
+  <outline title="High-Tech" cols="3" layout="3-0">
+   <outline title="Korben" xmlUrl="http://feeds.feedburner.com/KorbensBlog-UpgradeYourMind" htmlUrl="https://korben.info/" type="rss" row="1000" col="2"/>
+   <outline title="Presse-Citron" xmlUrl="http://www.presse-citron.net/feed/" htmlUrl="https://www.presse-citron.net/" type="rss" row="2000" col="2"/>
+   <outline title="Android-France" xmlUrl="http://feeds.feedburner.com/android-france" htmlUrl="https://android-france.fr/" type="rss" row="1000" col="3"/>
+  </outline>
+  <outline title="Divertissement" cols="3" layout="3-0">
+   <outline title="Daily mars" xmlUrl="http://www.dailymars.net/feed/" htmlUrl="http://www.dailymars.net/" type="rss" row="1000" col="1"/>
+   <outline title="Topito" xmlUrl="http://feeds.feedburner.com/topito" htmlUrl="http://www.topito.com/" type="rss" row="1000" col="2"/>
+   <outline type="ExtendedVibes" title="Twitter search: &amp;#x27;from:senscritique&amp;#x27;" row="2000" col="2">
+    <outline streamTypes="twitter-search" lockedTab="true" mySearch="from:senscritique" filterSearch="" searchLimit="5" geocode="" radius="" unit="kilometers" showThumb="true" pagerPosition="bottom" activeTab="twitter-search" nvid="" searchType="social" latLong="" searchHistory="from:senscritique:netvibes" lightVersion="1"/>
+   </outline>
+   <outline title="La revue de presque de Nicolas Canteloup" xmlUrl="http://cdn-new-europe1.ladmedia.fr/var/exports/podcasts/sound/revue-de-presque.xml" htmlUrl="https://www.europe1.fr/emissions/La-revue-de-presque" type="rss" row="1000" col="3"/>
+   <outline title="Laurent Gerra" xmlUrl="http://www.rtl.fr/podcast/laurent-gerra.xml" htmlUrl="https://www.rtl.fr/emission/laurent-gerra" type="rss" row="2000" col="3"/>
+   <outline title="Filmosphere" xmlUrl="http://feeds.feedburner.com/Filmosphere" htmlUrl="https://www.screenmania.fr/" type="rss" row="3000" col="3"/>
+  </outline>
+ </body>
+</opml>
